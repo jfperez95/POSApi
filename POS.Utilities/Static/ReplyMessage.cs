@@ -18,5 +18,6 @@ namespace POS.Utilities.Static
         public const string MESSAGE_TOKEN = "El token ha sido generado correctamente";
         public const string MESSAGE_VALIDATE = "Errores de validación";
         public const string MESSAGE_FAILED = "Operación fallida";
+        public const string MESSAGE_TOKEN_ERROR = "El usuario y/o contraseña es incorrecta, compruébala";
     }
 }

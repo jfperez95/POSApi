@@ -1,6 +1,6 @@
 ﻿using POS.Application.Commons.Base;
-using POS.Application.Dtos.Request;
-using POS.Application.Dtos.Response;
+using POS.Application.Dtos.Category.Request;
+using POS.Application.Dtos.Category.Response;
 using POS.Infraestructure.Commons.Bases.Request;
 
 namespace POS.Application.Interfaces

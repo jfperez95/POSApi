@@ -1,13 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.DependencyInjection;
-using POS.Application.Dtos.Request;
+using POS.Application.Dtos.Category.Request;
 using POS.Application.Interfaces;
 using POS.Utilities.Static;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace POS.Test.Category
 {

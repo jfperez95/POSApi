@@ -24,6 +24,8 @@ namespace POS.Application.Extensions
             service.AddAutoMapper(Assembly.GetExecutingAssembly());
 
             service.AddScoped<ICategoryApplication, CategoryApplication>();
+            service.AddScoped<IUserApplication, UserApplication>();
+            service.AddScoped<IProviderApplication, ProviderApplication>();
 
             return service;
         }
